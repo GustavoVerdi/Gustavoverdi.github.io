@@ -1,122 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<title>Título da página</title>
+<title>Atividade 01</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="" type="text/css">
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Inter:wght@100&display=swap');
-    body{
-        margin-left: 3px;
-        margin-top: 2px;
-        font-family: 'Arimo', sans-serif;
 
+    *{
+        font-family: 'Arimo', sans-serif;
     } 
     #catalogo{
-        width: 90%;
-        height: 25px;
-        font-size: 25px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-block: 50px;
-        display: inline-block;
-        float: left;
-        background-color: black;
-        color: white;
-        font-weight: lighter;
-    }
-    #produto{
-        width: 350px;
-        height: 25px;
-        padding-left: 5px;
-        padding-top: 10px;
-        padding-right: 5px;
-        display: inline-block;
-        color: white;
-        background-color: rgba(108, 110, 106, 0.796);
-    }
-    #Cat{
-        width: 250px;
-        height: 25px;
-        padding-left: 5px;
-        padding-top: 10px;
-        display: inline-block;
-        color: white;
-        background-color: rgba(108, 110, 106, 0.796);
-    }
-    #preco{
-        width: 150px;
-        height: 25px;
-        padding-left: 5px;
-        padding-top: 10px;
-        padding-right: 5px;
-        display: inline-block;
-        color: white;
-        background-color: rgba(108, 110, 106, 0.796);
-    }
-    #contprod{
-        width: 350px;
-        height: 25px;
-        padding-left: 5px;
-        padding-top: 10px;
-        padding-right: 5px;
-        display: inline-block;
-        color: rgb(0, 0, 0);
-        background-color: rgba(209, 213, 207, 0.992);
-    }
-    #contcat{
-        width: 250px;
-        height: 25px;
-        padding-left: 5px;
-        padding-top: 10px;
-        display: inline-block;
-        color: rgb(0, 0, 0);
-        background-color: rgba(209, 213, 207, 0.992);
-    }
-    #contpreco{
-        width: 150px;
-        height: 25px;
-        padding-left: 5px;
-        padding-top: 10px;
-        padding-right: 5px;
-        display: inline-block;
-        color: rgb(0, 0, 0);
-        background-color: rgba(209, 213, 207, 0.992);
-    }
+        font-size: 27px;
+        background-color: rgb(0, 0, 0);
+        color:#ffff;
+        font-weight:lighter;
+        padding-top: 20px;
+     }   
     #lay{
-        float: left;
-        display: inline;
-        margin-right:3px;
-        margin-top: 6px;
-    }
-</style>
-
-<body>
-    <table>
+    color: #ffff;
+    background-color: #201f1fa1;
+     }
+    #aux{
+        color: #ffff;
+        background-color: #a8a7a79c;
+     }
+    td,th{
+        text-align: left;
+        padding: 8px;
+     }
+ </style>
+  <body>
+    <table style="width:100%;">
     <tr id="catalogo">
-        <td>Catálogo de Produtos - Desenvolvimento Web 1</td>
+        <th colspan="3">Catálogo de Produtos - Desenvolvimento Web I</th>
         </tr>
     <tr id="lay">
-        <td id="produto">Produtos</td> 
-        <td id="Cat">Categoria</td>
-        <td id="preco">Preço</td>
+        <td>Produtos</td> 
+        <td>Categoria</td>
+        <td>Preço</td>
         </tr>
-    <tr id="lay">
-        <td id="contprod"><a href="">Faça Voçê Mesmo: Comida Japonesa</a></td>
-        <td id="contcat">DVD</td>
-        <td id="contpreco">R$ 55,00</td>
-           </tr>
-    <tr id="lay">
-        <td id="contprod"><a href="">Faça Voçê Mesmo: Comida Mexicana</a></td>
-        <td id="contcat">DVD</td>
-        <td id="contpreco">R$ 42,00</td>
+    <tr id="aux">
+        <td><a href="">Faça Voçê Mesmo: Comida Japonesa</a></td>
+        <td>DVD</td>
+        <td>R$ 55,00</td>
+    </tr>
+    <tr id="aux">
+        <td><a href="">Faça Voçê Mesmo: Comida Mexicana</a></td>
+        <td>DVD</td>
+        <td>R$ 42,00</td>
             </tr>
-    <tr id="lay">
-        <td id="contprod"><a href="">Faça Voçê Mesmo: Comida Árabe</a></td>
-        <td id="contcat">VHS</td>
-        <td id="contpreco">R$ 39,00</td>
-</tr>
-</table>
-</body>
+    <tr id="aux">
+        <td><a href="">Faça Voçê Mesmo: Comida Árabe</a></td>
+        <td>VHS</td>
+        <td>R$ 39,00</td>
+   </tr>
+  </table>
+ </body>
 </html>
